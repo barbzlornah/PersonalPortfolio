@@ -568,5 +568,9 @@ button:active{
 			footer p:nth-child(1){
 				width: 90%;
 			}
+			.social-icons a {
+				width: 90%;
+
+			}
 			
 		}
