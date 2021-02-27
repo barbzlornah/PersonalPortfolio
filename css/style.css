@@ -565,7 +565,7 @@ button:active{
 				width: 150px;
 				height: 33px;
 			}
-			footer p:nth-child(2){
+			footer p:nth-child(1){
 				width: 90%;
 			}
 			
