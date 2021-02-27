@@ -146,13 +146,20 @@ button:active{
 		line-height:0px;
 	}
 	.about-text p:nth-child(2){
-		color:#3e3d3d;
-		font-size:13px;
+		color:#403e3e;
 		font-family: myriad pro;
 		font-weight:bold;
+		font-size:18px;
+		line-height:5pxpx;
+	}
+	.about-text p:nth-child(3){
+		color:#403e3e;
+		font-family: myriad pro;
+		font-weight:bold;
+		font-size:15px;
 		line-height:5px;
 	}
-	.about-text p:nth-child(3),.about-text p:nth-child(4){
+	.about-text p:nth-child(4),.about-text p:nth-child(5),.about-text p:nth-child(6),.about-text p:nth-child(7){
 		color:#7e7d7d;
 		font-family:calibri;
 		font-size:16px;
@@ -166,32 +173,32 @@ button:active{
 		font-family: calibri;
 		background-color:#262525;
 	}
-		   /*SERVICES CSS */
-		   .services{
+		   /*SKILLS CSS */
+		   .skills{
 			height:600px;
 			background-color:#ffffff;
 			padding: 2% 10% 0px 10%;
 		}
-		.services-text p:nth-child(1){
-			font-family: calibri;
+		.skills-text p:nth-child(1){
+			font-family: myriad pro;
 			font-weight:bold;
 			color:#1d1c1c;
-			font-size:30px;
+			font-size:23px;
 			line-height:0px;
 		}
-		.services-text p:nth-child(2){
+		.skills-text p:nth-child(2){
 			font-family:calibri;
 			font-weight: bold;
 			color:#3e3d3d;
 			font-size: 15px;
 			line-height: 5px;
 		}
-		.services-text p:nth-child(3){
+		.skills-text p:nth-child(3){
 			font-family:calibri;
 		    color:#7e7d7d;
 			font-size: 15px;
 		}
-		.services-text{
+		.skills-text{
 			width: 500px;
 			margin:50px 0px;
 		}
@@ -215,13 +222,13 @@ button:active{
 		}
 		 
 		.box-1{
-			background-image:url("../images/services-1.png");
+			background-image:url("../images/skills-1.png");
 		}
 		.box-2{
-			background-image:url("../images/services-2.png");
+			background-image:url("../images/skills-2.png");
 		}
 		.box-3{
-			background-image: url("../images/servies-3.png");
+			background-image: url("../images/skills-3.png");
 		}
 		.box-1 span,
 		.box-2 span,
@@ -299,15 +306,27 @@ button:active{
          #contact .fa-whatsapp,
          #contact .fa-copy,
          #contact .fa-phone {
-        font-size: 3em;
+        font-size: 48px;
 		display: block;
 		}
-		.contact-icons {
+		 .contact-icons {
 			text-align: center !important;
 		  }
 		  .contact-icons a{
-			justify-content: space-between;
-            flex-direction: column;
+			
+		  }
+		  .contact-icons p:nth-child(1){
+			color:#403e3e;
+			font-family: myriad pro;
+			font-weight:bold;
+			font-size:23px;
+		  }
+		  .contact-icons p:nth-child(2){
+			color:#403e3e;
+			font-family: myriad pro;
+			font-weight:bold;
+			font-style: italic;
+			font-size:18px;
 		  }
 		
 
@@ -436,14 +455,14 @@ button:active{
 			.about-text p:nth-child(4){
 				font-size: 14px;
 			}
-			.services{
+			.skills{
 				padding: 2% 5% 0px 5%;
 			}
 			.box-container{
 				justify-content: center;
 				flex-wrap: wrap;
 			}
-			.services{
+			.skills{
 				height: auto;
 			}
 			.box-1,.box-2,.box-3{
@@ -543,7 +562,7 @@ button:active{
 				width:90%;
 				text-align: center;
 			}
-			.services-text{
+			.skills-text{
 				width: 100%;
 			}
 			.contact-me{
